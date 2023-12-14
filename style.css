@@ -1,0 +1,27 @@
+.text{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid indigo;
+    width: 600px;
+}
+
+img{
+    /* width: 250px;
+    padding: 20px; */
+    margin: 20px;
+}
+.box{
+    border: 2px solid darkred;
+    margin: 50px;
+    height: 500px;
+}
+
+
+.box{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
